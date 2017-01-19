@@ -1,12 +1,12 @@
 Package: ionicons
 Type: Package
-Title: Ionicons Icon Pack
+Title: 'Ionicons' Icon Pack
 Authors@R: c(
     person("David", "Gohel", role = c("aut", "cre"),
     email = "david.gohel@ardata.fr"), 
     person("Drifty", role = "cph") )
 Version: 0.1.0
-Description: A placeholder for the ionicons icon pack distributed on Github.
+Description: A placeholder for the 'Ionicons' icon pack.
 License: MIT + file LICENSE
 Copyright: See file COPYRIGHTS.
 Encoding: UTF-8
