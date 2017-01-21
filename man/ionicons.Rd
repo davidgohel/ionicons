@@ -4,16 +4,26 @@
 \alias{ionicons}
 \title{'ionicons' png file}
 \usage{
-ionicons(name)
+ionicons(name, png = NULL, width = NULL, height = NULL, fill = "black")
 }
 \arguments{
 \item{name}{icon name (without extensions)}
+
+\item{png}{png file to produce}
+
+\item{width}{output width in pixels or NULL for default.}
+
+\item{height}{output height in pixels or NULL for default.}
+
+\item{fill}{fill color}
 }
 \description{
-get full path of an icon from 'ionicons' pack.
+get full path of an icon from 'ionicons' pack. The icon
+is been produced as a png image. Width, height and fill color can be
+specified.
 }
 \details{
-All icons are squares (width 512 pixels and height 512 pixels).
+All icons are 512 pixels * 512 pixels by default.
 }
 \examples{
 ionicons(name = "alert")

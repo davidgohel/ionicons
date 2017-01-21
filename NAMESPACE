@@ -2,3 +2,8 @@
 
 export(ionicons)
 export(ls_ionicons)
+importFrom(rsvg,rsvg_png)
+importFrom(xml2,read_xml)
+importFrom(xml2,write_xml)
+importFrom(xml2,xml_child)
+importFrom(xml2,xml_set_attr)
