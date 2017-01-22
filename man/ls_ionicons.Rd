@@ -4,7 +4,10 @@
 \alias{ls_ionicons}
 \title{list 'ionicons' icons}
 \usage{
-ls_ionicons()
+ls_ionicons(pattern = NULL)
+}
+\arguments{
+\item{pattern}{regexp pattern to use to find icons names}
 }
 \description{
 get 'ionicons' pack icons names.
