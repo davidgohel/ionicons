@@ -3,7 +3,6 @@
 export(as_array)
 export(as_png)
 export(ls_ionicons)
-importFrom(grDevices,as.raster)
 importFrom(rsvg,rsvg_png)
 importFrom(rsvg,rsvg_raw)
 importFrom(xml2,"xml_attr<-")

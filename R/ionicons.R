@@ -38,7 +38,6 @@ as_png <- function( name, png = NULL, width = NULL, height = NULL, fill = "black
 #' as_array(name = "alert")
 #' @export
 #' @importFrom rsvg rsvg_raw
-#' @importFrom grDevices as.raster
 as_array<- function( name, width = NULL, height = NULL, fill = "black" ){
 
   svg_file <- fortify_svg(name = name, fill = fill )
