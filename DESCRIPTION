@@ -7,7 +7,7 @@ Authors@R: c(
     person("Drifty", role = "cph") )
 Version: 0.1.0
 Description: A placeholder for the 'Ionicons' icon pack.
-License: MIT + file LICENSE
+License: GPL-3
 Copyright: See file COPYRIGHTS.
 Encoding: UTF-8
 LazyData: true
