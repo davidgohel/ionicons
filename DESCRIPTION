@@ -5,8 +5,10 @@ Authors@R: c(
     person("David", "Gohel", role = c("aut", "cre"),
     email = "david.gohel@ardata.fr"), 
     person("Drifty", role = "cph") )
-Version: 0.1.0
-Description: A placeholder for the 'Ionicons' icon pack.
+Version: 0.1.1
+Description: Provides icons from the 'Ionicons' icon pack (<http://ionicons.com/>). 
+  Functions are provided to get icons as png files or as raw matrices. This is useful 
+  when you want to embed raster icons in a report or a graphic. 
 License: GPL-3
 Copyright: See file COPYRIGHTS.
 Encoding: UTF-8
